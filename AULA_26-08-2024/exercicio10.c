@@ -1,3 +1,15 @@
+/* Faça um programa que leia os 5 resultados do lançamento sucessivos de uma moeda,
+ onde temos para cada resultado (Cara=1 / Coroa=2).
+
+Ao final da leitura dos resultados dos lançamentos, mostre a ocorrência do número de Caras 
+e o número de Coroas e informe qual dos dois resultados foi o que teve o maior número de ocorrências.
+
+Exemplo: 
+
+Resultado:  Cara=3    Coroa=2
+
+Maior ocorrência: Cara */
+
 #include <stdio.h>
 #include <stdlib.h>
 

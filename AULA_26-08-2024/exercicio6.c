@@ -1,3 +1,21 @@
+/* Utilizando uma estrutura de repetição, implemente um programa em C 
+para ler uma sequência de 8 números inteiros positivos e verificar se 
+cada um deles é par ou ímpar, escrevendo mensagem adequada.
+
+Ex:  Digite um número: 4
+
+“Número par !!! ”.
+
+Digite um número: 5
+
+“Número ímpar !!! ”.
+
+Ao término indique quantos números pares e quantos ímpares foram digitados.
+
+Total de pares = 
+
+Total de ímpares =  */
+
 #include <stdio.h>
 #include <stdlib.h>
 

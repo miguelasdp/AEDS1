@@ -1,3 +1,7 @@
+/* Faça um programa para calcular e mostrar a soma da série abaixo: 
+
+S = (1 + 2 +3 + 4 +.................. + 50) */
+
 #include <stdio.h>
 #include <stdlib.h>
 

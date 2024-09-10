@@ -1,3 +1,7 @@
+/* Faça um programa para calcular e mostrar a soma da série abaixo: 
+
+S = (1 + 3 +5 + 7 +.................. + 49) */
+
 #include <stdio.h>
 #include <stdlib.h>
 

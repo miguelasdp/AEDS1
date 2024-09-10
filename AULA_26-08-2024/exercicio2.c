@@ -1,3 +1,12 @@
+/* 2) Utilizando a estrutura de repetição WHILE, implemente um programa em C
+para ler o peso e o gênero (masculino=1 / feminino=2) de um grupo de 5 pessoas e ao término mostre:
+
+- o número de homens e o número de mulheres do grupo;
+
+- a média dos pesos do grupo;
+
+- indicar o gênero que teve a maior ocorrência (homens ou mulheres); */
+
 #include <stdio.h>
 #include <stdlib.h>
 

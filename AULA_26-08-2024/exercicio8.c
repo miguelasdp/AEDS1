@@ -1,3 +1,7 @@
+/* Faça um programa para calcular e mostrar a soma da série abaixo: 
+
+S = (1 +  1/2 + 1/3 +  1/4 + .............1/10) */
+
 #include <stdio.h>
 #include <stdlib.h>
 

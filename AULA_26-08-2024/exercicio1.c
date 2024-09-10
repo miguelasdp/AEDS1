@@ -1,3 +1,7 @@
+/* 1) Utilizando a estrutura de repetição WHILE, 
+implemente um programa em C para ler as notas de 10 alunos,
+calcular e imprimir a média da turma. */
+
 #include <stdio.h>
 #include <stdlib.h>
 
