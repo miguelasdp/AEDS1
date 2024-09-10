@@ -1,3 +1,7 @@
+/* Faça um programa para somar e mostrar a soma abaixo:
+
+S = (-7, -5, -3,  .....................) a soma dos 10 primeiros; */
+
 #include <stdio.h>
 #include <stdlib.h>
 

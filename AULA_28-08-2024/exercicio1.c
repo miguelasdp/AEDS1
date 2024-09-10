@@ -1,3 +1,7 @@
+/* Faça um programa para somar e mostrar o resultado da soma abaixo:
+
+ S = (2 + 4 +6 + 8 +..................) a soma dos 15 primeiros; */
+
 #include <stdio.h>
 #include <stdlib.h>
 

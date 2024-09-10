@@ -1,3 +1,12 @@
+/* Faça um programa para ler a idade, o gênero (masc=1/fem=2) e o peso de 5 pessoas.
+
+Após as leituras dos dados mostre:
+
+O número de homens e o número de mulheres;
+A média dos pesos dos homens;
+A média das idades das mulheres;
+A média do peso e das idades do grupo; */
+
 #include <stdio.h>
 #include <stdlib.h>
 
