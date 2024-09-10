@@ -1,3 +1,14 @@
+/* Faça um programa para ler o consumo de energia elétrica em um bairro 
+com consumidores divididos de acordo com os tipos (Residência=1/Comércio=2) e ao término mostre:
+
+a) a quantidade de consumidores de cada tipo;
+
+b) a média de consumo das residências;
+
+c) a média de consumo do comércio;
+
+d) a média de consumo do bairro. */
+
 #include <stdio.h>
 #include <stdlib.h>
 

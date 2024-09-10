@@ -1,3 +1,11 @@
+/* Escreva um programa que leia e armazene um número secreto.
+
+Após a leitura desse número, faça um programa para que o usuário tente adivinhar esse número secreto até acertar.
+
+Durante as tentativas, dê as dicas se o número digitado atual é maior ou menor que o número secreto.
+
+No final mostre quantas tentativas foram necessárias para acertar. */
+
 #include <stdio.h>
 #include <stdlib.h>
 

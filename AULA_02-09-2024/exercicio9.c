@@ -1,3 +1,11 @@
+/* Faça um programa para ler uma série de números e ao término mostre:
+
+a) a média verificada;
+
+b) o maior número lido;
+
+c) o menor número lido. */
+
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,8 @@
+/* Crie um programa que solicite ao usuário uma sequência de números inteiros. 
+Use um flag para parar o loop quando um número ímpar for digitado. 
+
+Conte e informe quantos números pares foram digitados até a interrupção do loop. */
+
 #include <stdio.h>
 #include <stdlib.h>
 

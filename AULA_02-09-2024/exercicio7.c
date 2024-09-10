@@ -1,3 +1,11 @@
+/* Faça um programa para ler o consumo de água em (m3) das residências de um bairro e ao término mostre:
+
+a) a média do consumo de água verificado neste bairro;
+
+b) o número de consumidores analisados;
+
+c) o maior e o menor consumos verificados; */
+
 #include <stdio.h>
 #include <stdlib.h>
 

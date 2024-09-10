@@ -1,3 +1,8 @@
+/* Faça um programa que leia uma série de números inteiros  positivos e que,
+ a cada número lido, mostre o seu  fatorial.
+
+Onde:  n ! = n x (n-1) x (n-2) x ...... x 2 x 1 */
+
 #include <stdio.h>
 #include <stdlib.h>
 

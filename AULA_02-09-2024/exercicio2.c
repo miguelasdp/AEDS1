@@ -1,3 +1,8 @@
+/* Escreva um programa que leia números inteiros do usuário e utilize de um flag 
+para parar quando um número negativo for inserido.
+
+O programa deve calcular e exibir a média dos números positivos digitados. */
+
 #include <stdio.h>
 #include <stdlib.h>
 

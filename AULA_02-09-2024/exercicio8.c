@@ -1,3 +1,13 @@
+/* Faça um programa para ler a idade de um grupo de pessoas e ao término mostre:
+
+a) o número de mulheres e o número de homens;
+
+b) a média das idades dos homens.
+
+c) a maior idade verificada;
+
+d) a menor idade verificada; */
+
 #include <stdio.h>
 #include <stdlib.h>
 

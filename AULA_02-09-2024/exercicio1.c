@@ -1,3 +1,7 @@
+/* Faça um programa para ler uma sucessão de lançamentos de uma moeda onde (Cara=1 / Coroa=2).
+
+Ao término, mostre a ocorrência de cada face e a face que teve a maior ocorrência. */
+
 #include <stdio.h>
 #include <stdlib.h>
 
