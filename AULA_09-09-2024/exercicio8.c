@@ -1,3 +1,8 @@
+/* Faça um programa que leia dois números inteiros A e B.
+
+Após a leitura, informe quantos números entre 1 e A
+são divisíveis por B.*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

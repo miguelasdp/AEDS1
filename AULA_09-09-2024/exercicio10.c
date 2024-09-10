@@ -1,3 +1,12 @@
+/* Elabore um programa que faça a leitura do consumo de água de N residências.
+
+Leia o valor de N.
+
+Após a leitura dos dados, mostre:
+
+a média das leituras realizadas;
+a maior e a menor leituras encontradas. */
+
 #include <stdio.h>
 #include <stdlib.h>
 

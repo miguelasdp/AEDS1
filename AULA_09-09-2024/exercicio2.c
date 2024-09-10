@@ -1,3 +1,8 @@
+/* Utilizando a estrutura de repetição FOR, 
+implemente um programa que calcule e escreva a soma dos 15 primeiros termos da sequencia abaixo:
+
+soma = (1/1 + 3/2 + 5/3 + 7/4 + .......) */
+
 #include <stdio.h>
 #include <stdlib.h>
 

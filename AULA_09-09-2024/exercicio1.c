@@ -1,3 +1,6 @@
+/* Utilizando a estrutura de repetição FOR, implemente um programa para ler
+as notas de 10 alunos e após calcule e mostre a média da turma, a maior e a menor nota verificada. */
+
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,5 @@
+/* Crie um programa que leia N números e conte quantos são positivos, negativos e zeros. */
+
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,6 @@
+/* Utilizando a estrutura de repetição FOR,  faça um programa que leia uma série de 10 números
+e ao término informe a quantidade de números pares e a quantidade de números impares desta série. */
+
 #include <stdio.h>
 #include <stdlib.h>
 

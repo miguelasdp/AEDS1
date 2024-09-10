@@ -1,3 +1,18 @@
+/* Faça um programa que leia os seguintes dados de 6 pessoas:
+
+gênero;
+idade;
+peso;
+Após a leitura dos dados, mostre:
+
+a) o maior peso verificado no grupo;
+
+b) a menor idade verificada no grupo;
+
+c) a média dos pesos dos homens;
+
+d) a média das idades das mulheres. */
+
 #include <stdio.h>
 #include <stdlib.h>
 
