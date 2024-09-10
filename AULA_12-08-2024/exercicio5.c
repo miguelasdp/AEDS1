@@ -1,3 +1,5 @@
+/* Faça um programa que calcule e mostre a área de um cubo. */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>

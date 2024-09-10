@@ -1,3 +1,5 @@
+/* Faça um programa que calcule e mostre a área de uma piscina retangular. */
+
 #include <stdio.h>
 #include <stdlib.h>
 

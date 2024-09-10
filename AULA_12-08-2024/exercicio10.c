@@ -1,3 +1,8 @@
+/* Faça um programa que leia um valor qualquer em reais (R$)
+ e após converta este valor para dólar (US$) e também para o euro(E$).
+    Para tal, pergunte as cotações do dia do dólar e do euro e mostre
+ os valores convertidos para essas moedas. */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>

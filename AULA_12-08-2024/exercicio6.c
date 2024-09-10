@@ -1,3 +1,6 @@
+/* Faça um programa que leia as idades de 3 pessoas
+    e ao término mostre a média das idades lidas. */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>

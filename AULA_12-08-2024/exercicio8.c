@@ -1,3 +1,6 @@
+/* Faça um programa que calcule e mostre a distancia 
+percorrida por um móvel, onde d = v x t . */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>

@@ -1,3 +1,6 @@
+/* Faça um programa que calcule e mostre o tempo 
+de deslocamento de um móvel, onde t = d/v . */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>

@@ -1,3 +1,6 @@
+/* Faça um programa que leia três números inteiros quaisquer, 
+execute a soma e mostre o resultado ao final. */
+
 #include <stdio.h>
 #include <stdlib.h>
 

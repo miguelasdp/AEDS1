@@ -1,3 +1,5 @@
+/* Faça um programa que calcule e mostre a idade em anos de uma pessoa. */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
