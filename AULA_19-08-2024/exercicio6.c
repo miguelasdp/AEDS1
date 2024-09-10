@@ -1,4 +1,15 @@
+/* Faça um programa que permita calcular qualquer uma das áreas escolhidas abaixo:
+
+- área do quadrado;
+
+- área do retângulo;
+
+- área do cubo;
+
+- área do triangulo retângulo; */
+
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
 
 int main() {

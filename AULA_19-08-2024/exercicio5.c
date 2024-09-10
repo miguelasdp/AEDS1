@@ -1,4 +1,9 @@
+/* Faça um programa que funcione como uma calculadora entre dois 
+números quaisquer, que permita escolher calcular a soma, subtração,
+divisão ou multiplicação entre eles. */
+
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
   int num1, num2, operacao;

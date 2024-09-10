@@ -1,4 +1,14 @@
+/* Faça um programa que permita o cálculo de qualquer uma 
+das grandezas físicas abaixo:
+
+- distancia, onde d = v * t ;
+
+- tempo, onde t = d / v ;
+
+- velocidade, onde v = d / t ; */
+
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
 
 int main() {

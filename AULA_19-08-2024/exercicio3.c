@@ -1,4 +1,14 @@
+/* Faça um programa que calcule a idade em anos de qualquer pessoa
+ e após ter calculado mostre a idade e uma das mensagens abaixo:
+
+ - se idade  <= 10 anos, diga “Criança”;
+
+- se idade  > 10 e <= 17 anos, diga “Adolescente”;
+
+- se idade  >= 18 anos, diga “Adulto”; */
+
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
   int idade;

@@ -1,4 +1,8 @@
+/* Faça um programa para ler 3 números diferentes quaisquer e
+ após mostre o valor do maior e o valor do menor entre os três. */
+
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
   int num1, num2, num3, maior, menor;

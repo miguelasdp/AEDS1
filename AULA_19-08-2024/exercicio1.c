@@ -1,4 +1,8 @@
+/* Faça um programa para ler 2 números diferentes quaisquer e 
+após mostre o valor do maior e o valor do menor entre os dois. */
+
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
   int num1, num2;

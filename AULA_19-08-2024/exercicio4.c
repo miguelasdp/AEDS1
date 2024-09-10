@@ -1,4 +1,17 @@
+/* Faça um programa para ler 3 temperaturas medidas ao longo
+ de um dia e após as leituras, mostre a média entre elas e 
+ uma das mensagens abaixo:
+
+ - se a média for <= 10 graus, diga “Muito Frio!”;
+
+ - se a média estiver > 10 e <= 20, diga “Frio !”;
+
+ - se a média estiver > 20 e <= 30, diga “Quente!”;
+
+ - se a média estiver > 30, diga “Muito Quente!”; */
+
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
   int temp1, temp2, temp3, media;
