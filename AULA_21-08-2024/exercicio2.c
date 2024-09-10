@@ -1,4 +1,15 @@
+/* Um hotel com 75 apartamentos deseja fazer uma promoção especial de final de semana,
+ concedendo um desconto de 25% na diária. Com isto, espera aumentar sua taxa de ocupação 
+ de 50 para 80%. Sendo dado o valor normal da diária, calcular e imprimir:
+
+
+o valor da diária promocional; 
+o valor total arrecadado com 80% de ocupação e diária promocional; 
+o valor total arrecadado com 50% de ocupação e diária normal; 
+a diferença entre estes dois valores. */
+
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
 
 int main() {
