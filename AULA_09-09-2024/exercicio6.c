@@ -6,11 +6,11 @@
 #include <stdlib.h>
 
 int main() {
-  int num=8, fat=1;
+  int fat=1, soma=0;
 
-  for(int i=0; i<8; i++){
-    fat *= num;
-    num--;
+  for(int i=1; i<=8; i++){
+    fat *= i;
+    soma += fat;
   }
-  printf("%d",fat);
+  printf("A soma dos fatoriais de 8 a 1 é: %d",soma);
 }
