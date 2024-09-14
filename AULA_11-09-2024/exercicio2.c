@@ -1,4 +1,5 @@
-/* Faça um programa que leia o preço de um mesmo produto em 7 lojas diferentes e após mostre:  o menor e o maior preços encontrados e a média dos preços entre as lojas.
+/* Faça um programa que leia o preço de um mesmo produto em 7 lojas diferentes e após mostre:
+o menor e o maior preços encontrados e a média dos preços entre as lojas.
 
 Utilize de método sem passagem de parâmetro(s) e sem retorno. */
 

@@ -1,4 +1,6 @@
-/* Implemente um método para calcular o somatório de todos números pares de 2 a N (onde N deve ser fornecido pelo usuário). A função deve ler como parâmetro de entrada o valor de N e mostrar o resultado do somatório.
+/* Implemente um método para calcular o somatório de todos números pares 
+de 2 a N (onde N deve ser fornecido pelo usuário). A função deve ler 
+como parâmetro de entrada o valor de N e mostrar o resultado do somatório.
 
             S = (2 + 4 + 6 + ... + N)
 

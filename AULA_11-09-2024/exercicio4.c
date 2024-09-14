@@ -1,4 +1,5 @@
-/* Utilizando a estrutura de repetição, implemente um programa que calcule e escreva a  soma das 15 primeiras frações da série abaixo.
+/* Utilizando a estrutura de repetição, implemente um programa que calcule e
+escreva a  soma das 15 primeiras frações da série abaixo.
 
 soma = (1/1 + 3/2 + 5/3 + 7/4 + ... )
 

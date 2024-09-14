@@ -1,4 +1,5 @@
-/* Faça um programa para ler um conjunto de temperaturas em graus Celsius e mostre cada temperatura lida graus Fahrenheit.
+/* Faça um programa para ler um conjunto de temperaturas em graus Celsius 
+e mostre cada temperatura lida graus Fahrenheit.
 
 Use um flag para encerrar a repetição.
 

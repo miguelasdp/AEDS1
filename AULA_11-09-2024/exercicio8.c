@@ -1,4 +1,5 @@
-/* Faça um programa para ler o voto sim ou não de um conjunto de pessoas e ao término informe a ocorrência de cada tipo de voto.
+/* Faça um programa para ler o voto sim ou não de um conjunto de pessoas e
+ao término informe a ocorrência de cada tipo de voto.
 
 Use um flag para encerrar a repetição.
 

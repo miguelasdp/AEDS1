@@ -1,4 +1,5 @@
-/* Faça um programa para mostrar todos os números ímpares de 1 a 150 e ao término informar quantos foram mostrados.
+/* Faça um programa para mostrar todos os números ímpares de 1 a 150 e ao término
+informar quantos foram mostrados.
 
 Utilize de método sem passagem de parâmetro(s) e sem retorno. */
 

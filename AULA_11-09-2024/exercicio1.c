@@ -1,4 +1,6 @@
-/* Faça um programa que leia os dados de uma série de 10 números quaisquer e após a leitura mostre a quantidade de números ímpares, a quantidade de números pares e a média desta série.
+/* Faça um programa que leia os dados de uma série de 10 números quaisquer e
+após a leitura mostre a quantidade de números ímpares, a quantidade de
+números pares e a média desta série.
 
 Utilize de método sem passagem de parâmetro(s) e sem retorno */
 
