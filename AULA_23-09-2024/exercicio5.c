@@ -1,3 +1,10 @@
+/* Utilizando uma função, implemente o programa que calcule e escreva a  
+soma das N primeiras frações da série abaixo. Leia o valor de N.
+
+soma = (1/1 + 4/2 + 7/3 + 10/4 + ... )
+
+Obs: utilize passagem de parâmetro e retorno.  */
+
 #include <stdio.h>
 #include <stdlib.h>
 

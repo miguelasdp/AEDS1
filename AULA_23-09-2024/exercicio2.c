@@ -1,6 +1,18 @@
+/* Faça um procedimento que recebe a média final de um aluno, identifica e
+exibe o seu conceito, conforme a tabela abaixo. Faça um programa que leia a média de N alunos,
+acionando o procedimento para cada um deles. (N deve ser lido do teclado)
+
+Nota    Conceito
+
+Até 39      F
+40 a 59     E
+60 a 69     D
+70 a 79     C
+80 a 89     B
+Maior 89    A */
+
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
 void mediaFinal(int nota) {
     if(nota >= 0 && nota < 40) {

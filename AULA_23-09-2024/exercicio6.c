@@ -1,3 +1,13 @@
+/* Faça um programa que leia os dados de uma série de números quaisquer e 
+após a leitura mostre a quantidade de números lidos, a quantidade de múltiplos de 2
+e a quantidade de múltiplos de 3.
+
+Informe ainda a quantidade de números negativos e de números positivos.
+
+Use flag.
+
+Obs: utilize passagem de parâmetro e retorno. */
+
 int cont_mult_tres = 0;
 int cont_mult_dois = 0;
 int cont_pos = 0;

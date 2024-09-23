@@ -1,3 +1,11 @@
+/* Implemente uma função para calcular o somatório de todos números ímpares de 1 a N 
+(onde N deve ser fornecido pelo usuário). A função deve ler como parâmetro de entrada
+o valor de N e mostrar o resultado do somatório.
+
+            S = (1 + 5 + 9 + ... + N)
+
+Obs: utilize passagem de parâmetro e retorno.  */
+
 #include <stdio.h>
 #include <stdlib.h>
 

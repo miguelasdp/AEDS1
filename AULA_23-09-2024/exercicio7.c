@@ -1,3 +1,24 @@
+/* A CEMIG trabalha com consumidores dos tipos residencial, comercial e industrial. 
+
+O valor atual do Kwh é de R$ 2,80 para qualquer um dos diferentes tipos.
+
+Faça um programa que leia o consumo de energia em (Kwh) de uma cidade e após a 
+leitura dos dados dos consumidores, mostre:
+
+a) a quantidade de consumidores de cada tipo e o percentual de cada um no total de consumidores da cidade;  
+
+b) a média do consumo da indústria;
+
+c) o valor pago pelo maior consumidor da cidade e o seu tipo; 
+
+d) o valor pago pelo menor consumidor da cidade e o seu tipo;
+
+e) a média do consumo da cidade;
+
+Use flag.
+
+Obs: utilize passagem de parâmetro e retorno.  */
+
 #include <stdio.h>
 #include <stdlib.h>
 

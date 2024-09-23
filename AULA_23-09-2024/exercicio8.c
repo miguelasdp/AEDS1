@@ -1,3 +1,12 @@
+/* Faça um programa que calcule a conversão de graus centígrados para fahrenheit e vice versa.
+
+Pergunte qual a opção desejada (centígrado para fahrenheit) ou (fahrenheit para centígrado) e 
+o valor da temperatura a ser convertida.
+
+Use flag.
+
+Obs: utilize passagem de parâmetro e retorno. */
+
 #include<stdio.h>
 #include<stdlib.h>
 
