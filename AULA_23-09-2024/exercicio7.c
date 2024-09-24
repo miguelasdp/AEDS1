@@ -19,72 +19,57 @@ Use flag.
 
 Obs: utilize passagem de parâmetro e retorno.  */
 
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
+#include<stdlib.h>
 
-int lerTipoConsumidor() {
-    int tipo;
-  
-    printf("Digite o tipo de consumidor\n(1)Residencial (2)Comercial (3)Industrial : ");
-    scanf("%d", &tipo);
-  
-    return tipo;
-}
-
-float lerConsumo() {
-    float consumo;
-    printf("Digite o consumo em KWh: ");
-    scanf("%f", &consumo);
-    return consumo;
-}
-
-float calcValor(float consumo, float valorKwh) {
-    return consumo * valorKwh;
+float calcValor(float Kwh, float consumo) {
+  return Kwh * consumo;
 }
 
 int main() {
-    int tipo, totalConsumidor = 0, flag=1, residenciais = 0, comerciais = 0, industriais = 0, tipoMaiorConsumo = 0, tipoMenorConsumo = 0, numConsIndust = 0;
-    float consumo, totalConsumo = 0,  maiorConsumo = 0, menorConsumo = 9999999, somaConsIndust = 0, valorKwh = 2.80;
+  int flag=1, tipoConsumidor, totalConsumidores=0, resid=0, comerc=0, indust=0;
+  float Kwh=2.80, consumo, somaConsIndust=0, somaConsumo=0, menorCons=999999, maiorCons=0, menorConsTipo, maiorConsTipo;
 
-    while (flag==1) {
-        tipo = lerTipoConsumidor();
-        consumo = lerConsumo();
-        totalConsumidor++;
-        totalConsumo += consumo;
+  while(flag==1) {
+    printf("\nDigite o consumo em Kwh : ");
+    scanf("%f", &consumo);
+    printf("Tipo de Consumidor\n(1)Residencial (2)Comercial (3)Industrial : ");
+    scanf("%d", &tipoConsumidor);
+    
+    totalConsumidores++;
+    somaConsumo += consumo;
 
-        if (tipo == 1) {
-            residenciais++;
-        } else if (tipo == 2) {
-            comerciais++;
-        } else if (tipo == 3) {
-            industriais++;
-            somaConsIndust += consumo;
-            numConsIndust++;
-        }
+    if(tipoConsumidor==1) {
+      resid++;
+    } else if(tipoConsumidor==2) {
+      comerc++;
+    } else if(tipoConsumidor==3) {
+      indust++;
+      somaConsIndust += consumo;
+    }
 
-        if (consumo > maiorConsumo) {
-            maiorConsumo = consumo;
-            tipoMaiorConsumo = tipo;
-        }
+    if(consumo > maiorCons) {
+      maiorCons = consumo;
+      maiorConsTipo = tipoConsumidor;
+    }
+    if(consumo < menorCons) {
+      menorCons = consumo;
+      menorConsTipo = tipoConsumidor;
+    }
+    printf("\nDeseja continuar?\n(1)Sim (2)Não : ");
+    scanf("%d", &flag);
+  }
+    printf("\nQuantidade de consumidores por tipo:\n");
+    printf("Residenciais: %d (%.2f%%)\n", resid, (resid * 100.0) / totalConsumidores);
+    printf("Comerciais: %d (%.2f%%)\n", comerc, (comerc * 100.0) / totalConsumidores);
+    printf("Industriais: %d (%.2f%%)\n", indust, (indust * 100.0) / totalConsumidores);
 
-        if (consumo < menorConsumo) {
-            menorConsumo = consumo;
-            tipoMenorConsumo = tipo;
-        }
-      printf("Deseja continuar?\n(1)Sim (2)Não : ");
-      scanf("%d", &flag);
-    }
-    printf("\nQuantidade de consumidores por tipo:\n");
-    printf("Residenciais: %d (%.2f%%)\n", residenciais, (residenciais * 100.0) / totalConsumidor);
-    printf("Comerciais: %d (%.2f%%)\n", comerciais, (comerciais * 100.0) / totalConsumidor);
-    printf("Industriais: %d (%.2f%%)\n", industriais, (industriais * 100.0) / totalConsumidor);
-
-    if (numConsIndust > 0) {
-      printf("Média de consumo da indústria: %.2f KWh\n", somaConsIndust / numConsIndust);
-    } else {
-      printf("Nenhum consumidor industrial registrado.\n");
-    }
-    printf("Valor pago pelo maior consumidor: R$ %.2f (Tipo: %d)\n", calcValor(maiorConsumo, valorKwh), tipoMaiorConsumo);
-    printf("Valor pago pelo menor consumidor: R$ %.2f (Tipo: %d)\n", calcValor(menorConsumo, valorKwh), tipoMenorConsumo);
-    printf("Média de consumo da cidade: %.2f KWh\n", totalConsumo / totalConsumidor);
+    if (indust > 0) {
+        printf("Média de consumo da indústria: %.2f KWh\n", somaConsIndust / indust);
+    } else {
+        printf("Nenhum consumidor industrial registrado.\n");
+    }
+    printf("Valor pago pelo maior consumidor: R$ %.2f (Tipo: %.0f)\n", calcValor(Kwh, maiorCons), maiorConsTipo);
+    printf("Valor pago pelo menor consumidor: R$ %.2f (Tipo: %.0f)\n", calcValor(Kwh, menorCons), menorConsTipo);
+    printf("Média de consumo da cidade: %.2f KWh\n", somaConsumo / totalConsumidores);
 }
