@@ -14,7 +14,7 @@ int main() {
 
     if(lado==1){
       cont_cara++;
-    }else if(lado==2){
+    } else if(lado==2){
       cont_coroa++;
     }
 
